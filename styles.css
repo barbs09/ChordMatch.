@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #1e1e2f, #3b3b5b);
+    color: #fff;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #282845;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #aaa;
+}
+
+main {
+    padding: 20px;
+}
+
+#search-section, #results-section, #comments-section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+#search-section h2, #results-section h2, #comments-section h2 {
+    color: #f9f871;
+}
+
+#chord-input {
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#search-btn, #submit-comment {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f9f871;
+    color: #000;
+    cursor: pointer;
+}
+
+#results-list, #comments-list {
+    list-style: none;
+    padding: 0;
+}
+
+#results-list li, #comments-list li {
+    margin: 10px 0;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #282845;
+    color: #aaa;
+}
